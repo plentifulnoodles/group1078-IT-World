@@ -1,7 +1,7 @@
 body {
     background-color: #93C8E5;
     color: #FFFFFF;
-    font-family: 'Nunito Sans', sans-serif; 
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
@@ -28,6 +28,42 @@ h3 {
 h4 {
     color: #F1E299;
     font-weight: lighter;
+}
+
+h5 {
+    color: white;
+    font-weight: lighter;
+    font-size: 30px;
+    text-align: right
+}
+
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+  width: 1000px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #A1A1F5;
+  color: white;
 }
 
 header {
